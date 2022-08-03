@@ -27,9 +27,9 @@ export OF_USE_GREEN_LED=0
 
 	
 # Version
-export FOX_VERSION="R11.1"
+export FOX_VERSION="R11.1_2"
 export OF_MAINTAINER="Erikdrozina"
-export FOX_BUILD_TYPE="Beta"
+export FOX_BUILD_TYPE="Unofficial"
 	
 # Screen
 export OF_STATUS_INDENT_LEFT=48

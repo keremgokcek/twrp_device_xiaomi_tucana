@@ -14,6 +14,7 @@
 /system_image  emmc    /dev/block/bootdevice/by-name/system
 /vendor_image  emmc    /dev/block/bootdevice/by-name/vendor
 
+/metadata      ext4   /dev/block/bootdevice/by-name/metadata                     flags=display="Metadata";backup=1;wrappedkey
 /data          f2fs   /dev/block/bootdevice/by-name/userdata                     flags=fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized+wrappedkey_v0
 /firmware      vfat   /dev/block/bootdevice/by-name/modem                        flags=display="Firmware";mounttodecrypt
 /misc          emmc   /dev/block/bootdevice/by-name/misc

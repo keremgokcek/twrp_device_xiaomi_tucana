@@ -26,9 +26,8 @@ export FOX_USE_SED_BINARY=1
 export FOX_USE_XZ_UTILS=1
 export OF_USE_GREEN_LED=0
 
-	
 # Version
-export FOX_VERSION="R11.1_2"
+export FOX_VERSION="R11.1_3"
 export OF_MAINTAINER="Erikdrozina"
 export FOX_BUILD_TYPE="Unofficial"
 	

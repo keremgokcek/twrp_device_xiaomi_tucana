@@ -10,3 +10,6 @@ ro.adb.secure=0
 fbe.metadata.wrappedkey=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Dynamic partition
+ro.boot.dynamic_partitions=true
+

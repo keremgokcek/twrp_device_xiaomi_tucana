@@ -27,6 +27,10 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/tucana/device.mk)
 
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tucana
 PRODUCT_NAME := twrp_tucana
